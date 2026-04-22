@@ -1,5 +1,6 @@
 
             .body {
+                margin:0;
                 font-family:arial;
                 height:2000px;
             }
@@ -79,6 +80,10 @@
                 background:red;
                 color:white;
                 padding:5px 10px;
+            }
+
+            .space {
+                height:2000px;
             }
 
             
