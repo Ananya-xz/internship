@@ -5,7 +5,7 @@ body {
 
 
 .navbar {
-  position: fixed;
+  position:fixed;
   top: 0;
   width: 100%;
   background: black;
@@ -27,7 +27,8 @@ body {
 }
 
 .card img {
-  width: 100%;
+  width:500px;
+  height:500px;
   border-radius: 10px;
 }
 
@@ -45,4 +46,6 @@ body {
 
 .scroll-text {
   height: 1000px;
+  width: 300px;
+  margin: 20px auto;
 }
