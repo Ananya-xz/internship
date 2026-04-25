@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Array display</title>
+</head>
+<body>
+    <h2>My items</h2>
+
+    <button onclick="showItems()">Show Items</button>
+    <ul id="itemList"></ul>
+
+    <script>
+        function showItems() {
+
+            let items=["Apple","Orange","Mango","Banana"];
+            let list=
+            document.getElementById("itemList");
+
+            list.innerHTML = "";
+
+            for (let i=0; i<items.length; i++) {
+                let li =
+                document.createElement("li");
+
+                li.innerHTML = items[i];
+
+                list.appendChild(li);
+            }
+        }
+    </script>
+</body>
