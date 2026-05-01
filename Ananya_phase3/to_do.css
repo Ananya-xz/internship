@@ -1,0 +1,55 @@
+ body {
+            font-family: Arial;
+            background-color:rgb(132, 204, 132);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color:rgb(85, 158, 85);
+        
+         border:none;
+            cursor:pointer;
+        }
+
+        li {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .editBtn {
+            background: green;
+            color: white;
+            border: none;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        .deleteBtn {
+            background: red;
+            color: white;
+            border: none;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        input {
+            width: 70%;
+            padding: 8px;
+        }
+
+        .addBtn {
+            padding: 8px;
+            background: rgb(68, 137, 68);
+            color: white;
+        }
